@@ -742,16 +742,16 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega
 	1    3000 2700
 	1    0    0    -1  
 $EndComp
-Text GLabel 3600 1300 2    50   Input ~ 0
-ROW0
-Text GLabel 3600 1500 2    50   Input ~ 0
-ROW2
 Text GLabel 3600 1200 2    50   Input ~ 0
+ROW0
+Text GLabel 3600 1300 2    50   Input ~ 0
+ROW1
+Text GLabel 3600 1400 2    50   Input ~ 0
+ROW2
+Text GLabel 3600 1500 2    50   Input ~ 0
 COL0
 Text GLabel 3600 1900 2    50   Input ~ 0
 COL1
 Text GLabel 3600 2400 2    50   Input ~ 0
 COL2
-Text GLabel 3600 1400 2    50   Input ~ 0
-ROW1
 $EndSCHEMATC
