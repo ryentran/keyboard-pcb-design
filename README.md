@@ -12,4 +12,6 @@ After creating the schematic and pcb design for the macropad, the pcb was printe
 <img src = "3x3%20macropad%20v1/images/Soldered%20PCB.jpg" width = "500">
 
 # Programming
-The MCU used for this project is an atmega32u4 which was programmed with [QMK_firmware](https://github.com/qmk/qmk_firmware). To achieve this, the used MCU pins and key layout was defined in C header files. Once everything was setup, the hexfile was generated using a makefile and loaded onto the MCU using [QMK_toolbox](https://github.com/qmk/qmk_toolbox)
+The MCU used for this project is an atmega32u4 which was programmed with [QMK_firmware](https://github.com/qmk/qmk_firmware). To achieve this, the used MCU pins and key layout was defined in C header files. Once everything was setup, the hexfile was generated using a makefile and loaded onto the MCU using [QMK_toolbox](https://github.com/qmk/qmk_toolbox). To test the board, the pins across each key was shorted with a wire and the programmed key was executed.
+
+# Mechanical Key Switches
