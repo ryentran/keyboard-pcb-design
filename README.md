@@ -1,5 +1,6 @@
 # Keyboard PCB Design
 This is a keyboard design for a 3x3 macropad created using KiCAD, Hasu's keyboard_parts [component library](https://github.com/tmk/kicad_lib_tmk) and [footprint library](https://github.com/tmk/keyboard_parts.pretty), and /u/techieee's [switch footprint library](https://github.com/egladman/keebs.pretty).
+![](3x3 macropad v1/images/3x3 macropad v1 Schematic.jpg)
 
 
 
