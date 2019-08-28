@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:3x3 macropad v1-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -164,8 +165,6 @@ F 3 "" H 1250 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1850 2200
-Wire Wire Line
-	1450 2400 1500 2400
 Connection ~ 1850 2400
 Wire Wire Line
 	1750 2300 1700 2300
@@ -244,7 +243,6 @@ Text GLabel 1850 3100 0    50   Input ~ 0
 D-
 Wire Wire Line
 	1700 2200 1850 2200
-Connection ~ 1500 2400
 Wire Wire Line
 	1250 2200 1500 2200
 Wire Wire Line
