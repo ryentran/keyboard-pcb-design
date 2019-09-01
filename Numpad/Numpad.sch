@@ -1835,4 +1835,26 @@ F 3 "" H 1950 6600 60  0001 C CNN
 $EndComp
 NoConn ~ 2050 6250
 NoConn ~ 2050 6850
+Text GLabel 3100 1200 2    50   Input ~ 0
+ROW1
+Text GLabel 3100 3600 2    50   Input ~ 0
+COL0
+Text GLabel 3100 3700 2    50   Input ~ 0
+COL1
+Text GLabel 3100 1400 2    50   Input ~ 0
+ROW0
+Text GLabel 3100 1600 2    50   Input ~ 0
+COL2
+Text GLabel 3100 3100 2    50   Input ~ 0
+COL3
+Text GLabel 3100 3000 2    50   Input ~ 0
+COL4
+Text GLabel 3100 3800 2    50   Input ~ 0
+ROW2
+Text GLabel 3100 3900 2    50   Input ~ 0
+ROW3
+Text GLabel 3100 4000 2    50   Input ~ 0
+ROW4
+Text GLabel 3100 2800 2    50   Input ~ 0
+LED
 $EndSCHEMATC

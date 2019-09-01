@@ -542,17 +542,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 6150 2150 6300
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB1
-U 1 1 5D5A4271
-P 1950 6600
-F 0 "USB1" H 1783 7397 60  0000 C CNN
-F 1 "HRO-TYPE-C-31-M-12" H 1783 7291 60  0000 C CNN
-F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 1950 6600 60  0001 C CNN
-F 3 "" H 1950 6600 60  0001 C CNN
-	1    1950 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX1
 U 1 1 5D661864
 P 4600 1600
@@ -1833,4 +1822,37 @@ Wire Wire Line
 Connection ~ 11300 7400
 Wire Wire Line
 	11300 7400 12400 7400
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB1
+U 1 1 5D5A4271
+P 1950 6600
+F 0 "USB1" H 1783 7397 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 1783 7291 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 1950 6600 60  0001 C CNN
+F 3 "" H 1950 6600 60  0001 C CNN
+	1    1950 6600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2050 6250
+NoConn ~ 2050 6850
+Text GLabel 3100 1200 2    50   Input ~ 0
+ROW1
+Text GLabel 3100 3600 2    50   Input ~ 0
+COL0
+Text GLabel 3100 3700 2    50   Input ~ 0
+COL1
+Text GLabel 3100 1400 2    50   Input ~ 0
+ROW0
+Text GLabel 3100 1600 2    50   Input ~ 0
+COL2
+Text GLabel 3100 3100 2    50   Input ~ 0
+COL3
+Text GLabel 3100 3000 2    50   Input ~ 0
+COL4
+Text GLabel 3100 3800 2    50   Input ~ 0
+ROW2
+Text GLabel 3100 3900 2    50   Input ~ 0
+ROW3
+Text GLabel 3100 4000 2    50   Input ~ 0
+ROW4
 $EndSCHEMATC
